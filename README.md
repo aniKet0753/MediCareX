@@ -1,30 +1,8 @@
-<div align="center">
-  <img src="./frontend/src/assets/images/medisync_hero_banner.png" width="100%" style="border-radius: 2.5rem; box-shadow: 0 20px 50px rgba(0,0,0,0.15);" />
-
-  <br />
-  <br />
-
-  # 🏥 MediSync: Next-Gen Clinical Protocol
+ # 🏥 MediNova Plus+: Next-Gen Clinical Protocol
 
   ### _Synchronizing Specialist Consultations, Pharmacy Fulfillments, and Patient Diagnostics in a Unified, Post-Quantum Encrypted Environment._
 
   <br />
-
-  | Deployment Node | Operational Link | Access Protocol |
-  | :--- | :--- | :--- |
-  | **Design Prototype** | [![Figma](https://img.shields.io/badge/Figma-Clinical_Design-F24E1E?style=for-the-badge&logo=figma&logoColor=white)](https://www.figma.com/proto/K0gasIFRWzrAlnWWhUy5vE/Untitled?page-id=3%3A2&node-id=3-125&p=f&viewport=463%2C474%2C0.05&t=AHoOQahMQPxluVVC-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=3%3A125) | UI/UX Blueprint |
-  | **Production Node** | [![Live Demo](https://img.shields.io/badge/Live_Project-View_Live-2ECC71?style=for-the-badge&logo=vercel&logoColor=white)](https://medi-sync-rho.vercel.app) | Live Clinical Environment |
-  | **API Intelligence** | [![Postman](https://img.shields.io/badge/Postman-API_Documentation-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://documenter.getpostman.com/view/50839186/2sBXqJLgPy) | Technical Handshake Docs |
-  | **Backend Cluster** | [![Backend API](https://img.shields.io/badge/Backend_API-Live_Endpoints-000000?style=for-the-badge&logo=render&logoColor=white)](https://medisync-gxiy.onrender.com) | Clinical Logic Node |
-  | **Video Walkthrough** | [![YouTube Demo](https://img.shields.io/badge/YouTube-Watch_Demo-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtu.be/0iB2YEnbtSw?si=_XlKFlHLEPg5F1aQ) | Clinical Operation Guide |
-
-  <br />
-
-  > **The MediSync Mission**: To bridge the fragmentation in global healthcare by orchestrating a high-fidelity, real-time data matrix where patient records and pharmaceutical intelligence coexist in absolute synchronization.
-
-  ---
-</div>
-
 ## 🧩 The Clinical Problem
 Modern healthcare suffers from **Data Fragmentation**. Patient records are siloed across institutions, pharmaceutical prices vary wildly without transparency, and the synchronization between doctors and patients is often manual and error-prone. This leads to delayed treatments, high costs, and compromised patient safety.
 
@@ -137,33 +115,12 @@ mediSync/
 └── README.md               # Project Dossier
 ```
 
----
-
-## 📸 Clinical Interface Gallery
-
-<div align="center">
-  <img src="./frontend/src/assets/images/medisync_platform_overview.png" width="100%" style="border-radius: 2rem; margin-bottom: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" />
-  <p><i>The MediSync Platform Overview: A Unified Hub for Clinical Operations</i></p>
-
-  <br />
-
-  <img src="./frontend/src/assets/images/medisync_record_vault.png" width="100%" style="border-radius: 2rem; margin-bottom: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" />
-  <p><i>The Secured Clinical Dossier: Neumorphic Grid & Timeline Synchronization</i></p>
-
-  <br />
-
-  <img src="./frontend/src/assets/images/admin_core.png" width="100%" style="border-radius: 2rem; margin-bottom: 2rem; box-shadow: 0 10px 30px rgba(0,0,0,0.1);" />
-  <p><i>Admin Control Node: Strategic Surveillance and Real-Time Analytics</i></p>
-</div>
-
----
-
 ## 🛠️ Tactical Deployment Protocol
 
 ### **1. Clone the Protocol**
 ```bash
-git clone https://github.com/priyabratasahoo780/Resume-generater.git
-cd Resume-generater/mediSync
+git clone https://github.com/aniKet0753/MediCareX.git
+cd MediNova plus+
 ```
 
 ### **2. Orchestrate Backend Intelligence**
@@ -196,17 +153,11 @@ npm run dev
 ---
 
 ## 🤝 Clinical Ethics & Contribution
-We welcome contributions that align with our mission. Please adhere to the **MediSync Tactical Protocol**:
+We welcome contributions that align with our mission. Please adhere to the **MediNova plus+ Tactical Protocol**:
 1. **Dossier Selection**: Choose an open clinical node.
-2. **Branch Creation**: Use tactical naming (e.g., `feature/medicine-sync`).
-3. **Audit**: Ensure code meets the modularization mandate.
+2. **Audit**: Ensure code meets the modularization mandate.
 
 ---
-
-## ⚖️ License
-This project is licensed under the **MIT License**.
-
-<br />
 
 <div align="center">
   <img src="https://img.shields.io/badge/Developed%20With-❤️-red?style=for-the-badge" />
@@ -215,18 +166,14 @@ This project is licensed under the **MIT License**.
 
   ### 👨‍💻 Strategic Clinical Engineering By
 
-  ## **Priyabrata Sahoo**
+  ## **Team Bug Hunters**
   _Full-Stack Clinical Systems Architect_
 
   <br />
 
-  [![GitHub](https://img.shields.io/badge/Connect_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/priyabratasahoo780)
-  [![LinkedIn](https://img.shields.io/badge/Professional_Network-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyabratasahoo780/)
-  [![Portfolio](https://img.shields.io/badge/Clinical_Portfolio-2A7FFF?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/priyabratasahoo780)
-
   <br />
 
-  **MediSync Core Technologies © 2026**
+  **MediNova plus+ Core Technologies Version 0.1**
   <br />
   _Synchronizing the Future of Global Healthcare_
 </div>
