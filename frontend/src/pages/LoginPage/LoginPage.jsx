@@ -3,7 +3,6 @@ import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useFormik } from 'formik';
 import * as Yup from 'yup';
 import { AlertCircle, ShieldAlert } from 'lucide-react';
-import { GoogleLogin } from '@react-oauth/google';
 import { jwtDecode } from 'jwt-decode';
 import { useAuth } from '../../context/AuthContext';
 import api from '../../utils/api';
@@ -130,19 +129,8 @@ const LoginPage = () => {
 
             {role !== 'Admin' && (
               <div className="mt-6">
-                <div className="flex items-center gap-4 mb-6 text-slate-400 text-[0.65rem] font-black uppercase tracking-widest">
-                  <div className="flex-1 h-[1px] bg-slate-100"></div> OR{' '}
-                  <div className="flex-1 h-[1px] bg-slate-100"></div>
-                </div>
-                <div className="w-full flex justify-center">
-                  <GoogleLogin
-                    onSuccess={handleGoogleSuccess}
-                    onError={() => setError('Google sign-in failed')}
-                    theme="outline"
-                    size="large"
-                    width="420"
-                  />
-                </div>
+
+        
               </div>
             )}
 

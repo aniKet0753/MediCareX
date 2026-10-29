@@ -11,7 +11,6 @@ import SignupSteps from './components/SignupSteps';
 import SignupSuccessOverlay from './components/SignupSuccessOverlay';
 import SignupProgressDots from './components/SignupProgressDots';
 import SignupHeader from './components/SignupHeader';
-import SignupGoogleAuth from './components/SignupGoogleAuth';
 import SignupErrorAlert from './components/SignupErrorAlert';
 import SignupFooter from './components/SignupFooter';
 import { SignupSchema } from './utils/SignupValidation';
@@ -144,12 +143,6 @@ const SignupPage = () => {
                 setError={setError}
               />
             </form>
-
-            <SignupGoogleAuth
-              role={formik.values.role}
-              onSuccess={handleGoogleSuccess}
-              onError={handleGoogleError}
-            />
 
             <SignupFooter />
           </div>

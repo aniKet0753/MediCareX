@@ -29,27 +29,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 
-app.use(helmet({
-  contentSecurityPolicy: {
-    directives: {
-      defaultSrc: ["'self'"],
-      styleSrc: ["'self'", "'unsafe-inline'", "https://fonts.googleapis.com"],
-      fontSrc: ["'self'", "https://fonts.gstatic.com"],
-      imgSrc: ["'self'", "data:", "https:"],
-      scriptSrc: ["'self'", "https://accounts.google.com"],
-      connectSrc: ["'self'", "https://medi-sync-rho.vercel.app", "http://localhost:5173", "http://localhost:5174", "https://accounts.google.com"],
-      frameSrc: ["'self'", "https://accounts.google.com"],
-      objectSrc: ["'none'"],
-      upgradeInsecureRequests: [],
-    },
-  },
-  crossOriginEmbedderPolicy: false,
-  hsts: {
-    maxAge: 31536000,       
-    includeSubDomains: true,
-    preload: true,
-  },
-}));
+
 
 
 app.use(compression());

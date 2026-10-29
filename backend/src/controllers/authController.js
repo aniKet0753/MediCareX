@@ -101,35 +101,5 @@ const getMe = async (req, res, next) => {
 };
 
 
-const googleLogin = async (req, res, next) => {
-  try {
-    const { email } = req.body;
-    const user = await User.findOne({ email });
 
-    if (!user) {
-      return res.status(404).json({ 
-        message: 'Identity not found. Registration required.', 
-        isNewUser: true 
-      });
-    }
-
-    if (user.isBanned) {
-      return res.status(403).json({ 
-        message: 'Access denied. Account suspended.' 
-      });
-    }
-
-    res.status(200).json({
-      _id: user._id,
-      name: user.name,
-      email: user.email,
-      role: user.role,
-      patientId: user.patientId,
-      token: generateToken(user._id),
-    });
-  } catch (error) {
-    next(error);
-  }
-};
-
-export { registerUser, loginUser, getMe, googleLogin };
+export { registerUser, loginUser, getMe,  };
